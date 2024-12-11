@@ -28,6 +28,22 @@ Changes will be deployed to production automatically after pushing to the defaul
 
 You can also preview changes using PRs, which generates a preview link of the docs.
 
+### 🌐 Environment Setup
+
+Before running project, ensure the following tools are installed
+
+- Install Node 20.x (LTS) [nvm](https://github.com/nvm-sh/nvm). Ensure you are running Node.js version 18 or higher.
+
+```
+node -v
+```
+
+- NPM comes with Node.js,  use the following command for check your version
+
+```
+npm -v
+```
+
 #### Troubleshooting
 
 - Mintlify dev isn't running - Run `mintlify install` it'll re-install dependencies.
